@@ -12,6 +12,10 @@ public class L_Willowrush_Verge extends LAND {
         // surveil decision
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

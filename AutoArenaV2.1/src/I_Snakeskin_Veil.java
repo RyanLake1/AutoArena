@@ -2,14 +2,18 @@
  * Needed:
  * 
  */
-public class I_Snakeskin_Veil extends CARD {
+public class I_Snakeskin_Veil extends OTHER {
     private char mana[] = {'G'};
-    private String[] keywords = {"hexproof"};
+    private String[] keywords = {"give keyword", ":hexproof", "give counter", ":1"};
 
     public I_Snakeskin_Veil() {
         // +1 counter (damage calc and ouroboroid)
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

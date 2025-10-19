@@ -11,6 +11,10 @@ public class L_Island extends LAND {
         tapped = false;
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

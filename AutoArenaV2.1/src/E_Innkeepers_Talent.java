@@ -2,18 +2,27 @@
  * Needed:
  * 
  */
-public class E_Innkeepers_Talent extends CARD {
+public class E_Innkeepers_Talent extends OTHER {
     private char mana[] = {'1', 'G'};
     private int level;
     private char[] levelCost;
+    private String[] keywords = {"give counter", ":1", "give keyword", ":ward", ":1"};
 
     public E_Innkeepers_Talent() {
         level = 1;
         levelCost[0] = 'G';
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
+    }
+
+    public String[] getKeywords() {
+        return keywords;
     }
     
     public void choiceLevel(){

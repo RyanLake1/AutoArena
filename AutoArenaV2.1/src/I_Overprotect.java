@@ -2,14 +2,18 @@
  * Needed:
  * 
  */
-public class I_Overprotect extends CARD {
+public class I_Overprotect extends OTHER {
     private char mana[] = {'1', 'G'};
-    private String[] keywords = {"hexproof", "indestructible", "trample"};
+    private String[] keywords = {"give keyword", ":hexproof", ":indestructible", ":trample", "give buff", "3 3"};
 
     public I_Overprotect() {
         
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

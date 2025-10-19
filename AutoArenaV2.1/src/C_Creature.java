@@ -15,6 +15,10 @@ public class C_Creature extends CREATURE {
         tapped = false; // how to program authority of the consul?
     }
     
+    public int getValue() {
+        return 0;
+    }
+    
     public int getPower() {
         return power;
     }

@@ -12,6 +12,10 @@ public class L_Hedge_Maze extends LAND {
         // surveil decision
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

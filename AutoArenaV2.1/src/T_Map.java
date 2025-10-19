@@ -2,14 +2,18 @@
  * Needed:
  * 
  */
-public class T_Map extends CARD {
+public class T_Map extends OTHER {
     private char mana[] = {'1'};
-    private String[] keywords = {"counter", "card draw"};
+    private String[] keywords = {"explore"};
 
     public T_Map() {
         
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }
@@ -24,6 +28,10 @@ public class T_Map extends CARD {
 
         }
         return choice;
+    }
+
+    public int choiceExplore() {
+        return 0;
     }
 
     

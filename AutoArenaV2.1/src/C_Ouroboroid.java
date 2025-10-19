@@ -3,7 +3,7 @@
  * 
  */
 public class C_Ouroboroid extends CREATURE {
-    private char mana[] = {'2', 'G', 'G'};
+    private char mana[] = {'1', '1', 'G', 'G'};
     private int power;
     private int toughness;
     boolean tapped;
@@ -15,6 +15,10 @@ public class C_Ouroboroid extends CREATURE {
         tapped = false; // how to program authority of the consul?
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

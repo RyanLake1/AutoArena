@@ -3,16 +3,25 @@
  * 
  */
 public class C_Azure_Beastbinder extends CREATURE {
-    private char mana[] = {'2', 'G', 'G'};
+    private char mana[] = {'1', 'U'};
     private int power;
     private int toughness;
     boolean tapped;
-    private String[] keywords = {"vigilance", "unblockable:conditional"};
+    private String[] keywords = {"vigilance", "unblockable"};
+    int value;
 
     public C_Azure_Beastbinder() {
         power = 1;
         toughness = 3;
         tapped = false; // how to program authority of the consul?
+        value = 0;
+    }
+
+    public int getValue() {
+        return value;
+    }
+    public int getValue(CREATURE[] opp_field) {
+        return value;
     }
 
     public char[] getMana() {

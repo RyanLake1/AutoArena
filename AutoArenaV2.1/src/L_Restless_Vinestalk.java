@@ -12,6 +12,10 @@ public class L_Restless_Vinestalk extends LAND {
         tapped = true;
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

@@ -4,7 +4,7 @@
  */
 public class C_Pawpatch_Recruit extends CREATURE {
     private char mana[] = {'G'};
-    private char kickerMana[] = {'2', 'G'};
+    private char kickerMana[] = {'1', '1', 'G'};
     private int power;
     private int toughness;
     boolean tapped;
@@ -16,11 +16,15 @@ public class C_Pawpatch_Recruit extends CREATURE {
         tapped = false; // how to program authority of the consul?
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }
 
-    public char[] getOffspringMana() {
+    public char[] getChoiceMana() {
         return kickerMana;
     }
     

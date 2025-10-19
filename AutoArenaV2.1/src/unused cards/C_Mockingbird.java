@@ -23,6 +23,10 @@ public class C_Mockingbird extends CREATURE {
         copiedCreature = copy;
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

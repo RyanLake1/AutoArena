@@ -7,7 +7,7 @@ public class C_Llanowar_Elves extends CREATURE {
     private int power;
     private int toughness;
     boolean tapped;
-    private String[] keywords = {"mana dork", "G"};
+    private String[] keywords = {"mana dork", ":G"};
 
     public C_Llanowar_Elves() {
         power = 1;
@@ -15,6 +15,10 @@ public class C_Llanowar_Elves extends CREATURE {
         tapped = false; // how to program authority of the consul?
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

@@ -3,11 +3,11 @@
  * 
  */
 public class C_Steamcore_Scholar extends CREATURE {
-    private char mana[] = {'2', 'U'};
+    private char mana[] = {'1', '1', 'U'};
     private int power;
     private int toughness;
     boolean tapped;
-    private String[] keywords = {"card:draw", "flying", "vigilance"};
+    private String[] keywords = {"card",":loot", "flying", "vigilance"};
 
     public C_Steamcore_Scholar() {
         power = 2;
@@ -23,6 +23,10 @@ public class C_Steamcore_Scholar extends CREATURE {
         return power;
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public int getToughness() {
         return toughness;
     }

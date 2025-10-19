@@ -14,6 +14,10 @@ public class L_Multiversal_Passage extends LAND {
         basicLandType[0] = color;
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

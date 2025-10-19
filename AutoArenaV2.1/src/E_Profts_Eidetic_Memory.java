@@ -2,15 +2,25 @@
  * Needed:
  * 
  */
-public class E_Profts_Eidetic_Memory extends CARD {
-    private char mana[] = {'2', 'G'};
+public class E_Profts_Eidetic_Memory extends OTHER {
+    private char mana[] = {'1', 'U'};
+    private String[] keywords = {"card", ":draw", "give counter", ":var"};
+    // could update "give counter" amount based on num of cards drawn this turn minus one
 
     public E_Profts_Eidetic_Memory() {
         
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
+    }
+
+    public String[] getKeywords() {
+        return keywords;
     }
 
     public int target(CREATURE[] my_creatures) {

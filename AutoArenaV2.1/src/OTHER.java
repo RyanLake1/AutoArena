@@ -5,14 +5,13 @@
  * attributes? (removal, draw, damage)
  * inHand?
  */
-public abstract class CARD {
+public abstract class OTHER extends CARD {
     // (X - x cost, 1 - any, W - white, U - blue, B - black, R - red, G - green, C - colorless)
-    // char mana[];
-    //int value;      // value of a card if played
+    // int value;
     //String attributes[];
     
-
-    // abstract char[] getMana();
-    abstract int getValue();
+    abstract String[] getKeywords();
+    
+    // abstract int getValue();
     //abstract String[] getAttributes();
 }

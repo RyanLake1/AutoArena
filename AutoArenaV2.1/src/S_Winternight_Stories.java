@@ -2,18 +2,24 @@
  * Needed:
  * 
  */
-public class S_Winternight_Stories extends CARD {
-    private char mana[] = {'2', 'U'};
-    private String[] keywords = {"card draw"};
+public class S_Winternight_Stories extends OTHER {
+    private char mana[] = {'1', '1', 'U'};
+    private String[] keywords = {"card", ":draw"};
 
     public S_Winternight_Stories() {
         
     }
     public S_Winternight_Stories(boolean thing) {
         // choice: harmonize
-        mana[0] = '4';
+        mana[2] = '1';
+        mana[3] = '1';
+        mana[4] = 'U';
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

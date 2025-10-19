@@ -26,5 +26,9 @@ public class Base_Take_Actions {
         
     }
 
+    public void mulligan() {
+        
+    }
+
 
 }

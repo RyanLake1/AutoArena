@@ -14,6 +14,10 @@ public class L_Botanical_Sanctum extends LAND {
             tapped = true;
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

@@ -13,6 +13,10 @@ public class L_Breeding_Pool extends LAND {
         // write to input software to take action
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }

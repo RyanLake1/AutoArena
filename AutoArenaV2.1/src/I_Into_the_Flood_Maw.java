@@ -2,16 +2,25 @@
  * Needed:
  * 
  */
-public class I_Into_the_Flood_Maw extends CARD {
+public class I_Into_the_Flood_Maw extends OTHER {
     private char mana[] = {'U'};
+    private String[] keywords = {"removal", ":bounce"};
     
 
     public I_Into_the_Flood_Maw() {
         // choice: gift a fish
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
+    }
+
+    public String[] getKeywords() {
+        return keywords;
     }
 
     public int target(CARD[] oppCards) {

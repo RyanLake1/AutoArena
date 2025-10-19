@@ -3,7 +3,7 @@
  * 
  */
 public class C_Warden_of_the_Grove extends CREATURE {
-    private char mana[] = {'2', 'G'};
+    private char mana[] = {'1', '1', 'G'};
     private int power;
     private int toughness;
     private int counters;
@@ -16,6 +16,10 @@ public class C_Warden_of_the_Grove extends CREATURE {
         tapped = false; // how to program authority of the consul?
     }
 
+    public int getValue() {
+        return 0;
+    }
+    
     public char[] getMana() {
         return mana;
     }
