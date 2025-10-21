@@ -8,6 +8,7 @@ public class C_Ouroboroid extends CREATURE {
     private int toughness;
     boolean tapped;
     private String[] keywords = {"counters"};
+    int value;
 
     public C_Ouroboroid() {
         power = 1;

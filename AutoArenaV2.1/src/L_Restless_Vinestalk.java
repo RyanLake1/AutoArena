@@ -7,6 +7,7 @@ public class L_Restless_Vinestalk extends LAND {
     private char basicLandType[] = {'\0'};
     private boolean tapped;
     private char manlandActivation[] = {'3', 'U', 'G'};
+    int value;
 
     public L_Restless_Vinestalk() {
         tapped = true;

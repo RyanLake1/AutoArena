@@ -9,6 +9,7 @@ public class C_Warden_of_the_Grove extends CREATURE {
     private int counters;
     boolean tapped;
     private String[] keywords = {"counters"};
+    int value;
 
     public C_Warden_of_the_Grove() {
         power = 2;

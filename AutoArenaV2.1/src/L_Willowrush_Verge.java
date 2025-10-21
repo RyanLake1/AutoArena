@@ -6,6 +6,7 @@ public class L_Willowrush_Verge extends LAND {
     private char mana[] = {'U'};
     private char basicLandType[] = {'\0'};
     private boolean tapped;
+    int value;
 
     public L_Willowrush_Verge() {
         tapped = false;

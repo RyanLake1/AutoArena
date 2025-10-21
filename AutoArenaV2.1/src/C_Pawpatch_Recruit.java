@@ -9,6 +9,7 @@ public class C_Pawpatch_Recruit extends CREATURE {
     private int toughness;
     boolean tapped;
     private String[] keywords = {"counters", "trample"};
+    int value;
 
     public C_Pawpatch_Recruit(int num) {
         power = 3 - num; // num is 1 for no kicker, 2 for kicker

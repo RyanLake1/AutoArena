@@ -6,6 +6,7 @@ public class L_Island extends LAND {
     private char mana[] = {'U'};
     private char basicLandType[] = {'U'};
     private boolean tapped;
+    int value;
 
     public L_Island() {
         tapped = false;

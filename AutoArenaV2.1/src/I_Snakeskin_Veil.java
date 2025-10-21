@@ -5,6 +5,7 @@
 public class I_Snakeskin_Veil extends OTHER {
     private char mana[] = {'G'};
     private String[] keywords = {"give keyword", ":hexproof", "give counter", ":1"};
+    int value;
 
     public I_Snakeskin_Veil() {
         // +1 counter (damage calc and ouroboroid)

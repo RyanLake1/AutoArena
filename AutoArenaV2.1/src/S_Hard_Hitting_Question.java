@@ -5,6 +5,7 @@
 public class S_Hard_Hitting_Question extends OTHER {
     private char mana[] = {'G'};
     private String[] keywords = {"removal", ":bite"};
+    int value;
 
     public S_Hard_Hitting_Question() {
         //initialize value in tracker (hashmap?)

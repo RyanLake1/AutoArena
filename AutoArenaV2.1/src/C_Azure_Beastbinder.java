@@ -14,13 +14,23 @@ public class C_Azure_Beastbinder extends CREATURE {
         power = 1;
         toughness = 3;
         tapped = false; // how to program authority of the consul?
-        value = 0;
+        value = 20;
     }
 
     public int getValue() {
         return value;
     }
-    public int getValue(CREATURE[] opp_field) {
+    public int getValue(CREATURE[] opp_field, CREATURE[] my_field) {
+        value = 20;
+        int count = 0;
+        for (int i = 0; i < my_field.length; i++) {
+            if (my_field[i] instanceof C_Azure_Beastbinder) {
+                count++;
+            }
+        }
+        if (count <= opp_field.length) {
+            value += 20;
+        }
         return value;
     }
 

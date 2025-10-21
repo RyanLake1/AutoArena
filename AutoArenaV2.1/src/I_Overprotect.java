@@ -5,6 +5,7 @@
 public class I_Overprotect extends OTHER {
     private char mana[] = {'1', 'G'};
     private String[] keywords = {"give keyword", ":hexproof", ":indestructible", ":trample", "give buff", "3 3"};
+    int value;
 
     public I_Overprotect() {
         

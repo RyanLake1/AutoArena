@@ -5,6 +5,7 @@
 public class T_Map extends OTHER {
     private char mana[] = {'1'};
     private String[] keywords = {"explore"};
+    int value;
 
     public T_Map() {
         

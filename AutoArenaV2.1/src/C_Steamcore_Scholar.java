@@ -8,6 +8,7 @@ public class C_Steamcore_Scholar extends CREATURE {
     private int toughness;
     boolean tapped;
     private String[] keywords = {"card",":loot", "flying", "vigilance"};
+    int value;
 
     public C_Steamcore_Scholar() {
         power = 2;

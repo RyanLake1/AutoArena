@@ -6,6 +6,7 @@ public class L_Forest extends LAND {
     private char mana[] = {'G'};
     private char basicLandType[] = {'G'};
     private boolean tapped;
+    int value;
 
     public L_Forest() {
         tapped = false;

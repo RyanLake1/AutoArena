@@ -6,6 +6,7 @@ public class L_Multiversal_Passage extends LAND {
     private char mana[];
     private char basicLandType[];
     private boolean tapped;
+    int value;
 
     public L_Multiversal_Passage(boolean etbTapped, char color) {
         tapped = etbTapped;

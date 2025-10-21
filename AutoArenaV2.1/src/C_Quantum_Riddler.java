@@ -10,6 +10,7 @@ public class C_Quantum_Riddler extends CREATURE {
     boolean tapped;
     boolean summoningSick;  //how to program summoning sick? do for all
     private String[] keywords = {"card", ":draw", "flying"};
+    int value;
 
     public C_Quantum_Riddler() {
         power = 4;

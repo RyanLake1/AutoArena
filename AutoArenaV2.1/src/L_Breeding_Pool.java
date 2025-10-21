@@ -6,6 +6,7 @@ public class L_Breeding_Pool extends LAND {
     private char mana[] = {'U', 'G'};
     private char basicLandType[] = {'U', 'G'};
     private boolean tapped;
+    int value;
 
     public L_Breeding_Pool(boolean etbTapped) {
         tapped = etbTapped;

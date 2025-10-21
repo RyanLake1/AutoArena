@@ -19,6 +19,8 @@ public class Base_VALUE_TRACKER {
     TreeMap<Integer, OTHER> otherCastValueMap = new TreeMap<>();
     Map<CARD, Integer> cardsInHandMap = new HashMap<>();
     private int turn;
+    int my_life_total;
+    int opp_life_total;
     private LAND[] myLands;
     private CREATURE[] myCreatures;
     private OTHER[] myOther;
@@ -64,10 +66,31 @@ public class Base_VALUE_TRACKER {
      * OTHER:
      * if no creatures, reduce value of all 'other' by set amount
      */
-    public void updateValues() {
+    public void updateCreatureValues() {
         //updates values of all cards in creatureCastValueMap
         for (CREATURE i : creatureCastValueMap.values()) {
-            creatureCastValueMap.put(i.getValue(), i);
+            int creatureVal = i.getValue();
+            if (myCreatures.length == 0) {
+                creatureVal += 30;
+            }
+            if (myCreatures.length == 1) {
+                creatureVal += 20;
+            }
+            creatureCastValueMap.put(creatureVal, i);
+        }
+    }
+
+    public void updateOtherValues() {
+        //updates values of all cards in creatureCastValueMap
+        for (OTHER i : otherCastValueMap.values()) {
+
+        }
+    }
+
+    public void updateLandValues() {
+        //updates values of all cards in creatureCastValueMap
+        for (LAND i : landPlayValueMap.values()) {
+
         }
     }
     public void castBestCard() {

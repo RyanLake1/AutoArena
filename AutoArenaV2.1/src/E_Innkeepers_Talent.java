@@ -6,7 +6,8 @@ public class E_Innkeepers_Talent extends OTHER {
     private char mana[] = {'1', 'G'};
     private int level;
     private char[] levelCost;
-    private String[] keywords = {"give counter", ":1", "give keyword", ":ward", ":1"};
+    private String[] keywords = {"give counter", ":1", "give keyword", ":ward", ":1", "beginning of combat trigger"};
+    int value;
 
     public E_Innkeepers_Talent() {
         level = 1;
@@ -37,7 +38,7 @@ public class E_Innkeepers_Talent extends OTHER {
         return levelCost;
     }
 
-    public int target(CARD[] my_creatures) {
+    public int beginningOfCombatTrigger(CARD[] my_creatures) {
         int choice = 0;
         for (int i = 0; i < my_creatures.length; i++) {
 

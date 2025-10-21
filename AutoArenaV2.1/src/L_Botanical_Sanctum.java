@@ -6,6 +6,7 @@ public class L_Botanical_Sanctum extends LAND {
     private char mana[] = {'U', 'G'};
     private char basicLandType[] = {'\0'};
     private boolean tapped;
+    int value;
 
     public L_Botanical_Sanctum(int otherLands) {
         if (otherLands < 3)

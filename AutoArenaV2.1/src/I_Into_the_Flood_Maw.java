@@ -5,6 +5,7 @@
 public class I_Into_the_Flood_Maw extends OTHER {
     private char mana[] = {'U'};
     private String[] keywords = {"removal", ":bounce"};
+    int value;
     
 
     public I_Into_the_Flood_Maw() {

@@ -5,6 +5,7 @@
 public class S_Winternight_Stories extends OTHER {
     private char mana[] = {'1', '1', 'U'};
     private String[] keywords = {"card", ":draw"};
+    int value;
 
     public S_Winternight_Stories() {
         

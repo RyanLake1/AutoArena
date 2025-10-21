@@ -6,6 +6,7 @@ public class L_Hedge_Maze extends LAND {
     private char mana[] = {'U', 'G'};
     private char basicLandType[] = {'U', 'G'};
     private boolean tapped;
+    int value;
 
     public L_Hedge_Maze() {
         tapped = true;

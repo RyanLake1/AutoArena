@@ -8,6 +8,7 @@ public class C_Llanowar_Elves extends CREATURE {
     private int toughness;
     boolean tapped;
     private String[] keywords = {"mana dork", ":G"};
+    int value;
 
     public C_Llanowar_Elves() {
         power = 1;
