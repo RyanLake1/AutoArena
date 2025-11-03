@@ -21,13 +21,13 @@
  * 
  * First priority: try to kill opp as fast as possible; can code being careful after
  * 
- * Next step in coding process: understand how to take input from a computer screen (arena; use simpler game to test),
- *      then put in input to take action (try to just be able to point and click right now; dragging will be necessary)
+ * Next step in coding process: understand how to take input from a computer screen (arena; use simpler game to test?)
+ * - image processing
  */
 
 
 
-public class Base {
+public class BaseIdeas {
     public static void main(String[] args) throws Exception {
         System.out.println("Starting!\n");
         int turn = 0;

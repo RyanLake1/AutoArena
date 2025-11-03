@@ -8,7 +8,10 @@ import java.util.TreeMap;
  * Do I plan out multiple decision choices? (if I do this, then this, etc, then pick best outcome, take action)
  * Do I make static choices? (pick highest value, take action)
  * 
- * This is going to be hard coded; I am going to make it generic when easy to, but don't expect a lot of that.
+ * This is going to be hard coded to one deck; I am going to make it generic when easy to, but don't expect a lot of that.
+ * 
+ * Put phase tracker into this; can set values to zero when uncastable at instant speed, and can keep track of if I've already attacked
+ * That makes this file a lot larger, but this way I'm not constantly calling back and forth.
  */
 
 
@@ -25,7 +28,6 @@ public class Base_VALUE_TRACKER {
     private CREATURE[] myCreatures;
     private OTHER[] myOther;
     
-
     public Base_VALUE_TRACKER() {
         turn = 0;
     }
