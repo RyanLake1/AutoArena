@@ -104,6 +104,29 @@ public class Base_VALUE_TRACKER {
         if (cardsInHandMap.put(bestCard, cardsInHandMap.get(bestCard) - 1) <= 1) {
             cardsInHandMap.remove(bestCard);
         }
-        // return value means cards left, keep, otherwise remove
+        // return value means cards left, keep, otherwise remove - what does this mean?
+    }
+
+    /**
+     * 
+     * @param mull_num - how many times I have mulliganed (got a new hand) previously
+     * @param hand
+     * @return if returned array is equal to given array, mulligan; 
+     *  otherwise, keep the hand, remove the returned cards and keep the other cards
+     */
+    public CARD[] mullOnPlay(int mull_num, CARD[] hand) {
+        boolean mull = false;
+        CARD[] cardsToMull = {};
+        CARD[] cardsToKeep = {};
+
+        while (cardsToMull.length < mull_num) {
+            // decide what card to remove from hand
+        }
+
+        if (mull) {
+            cardsToMull = hand;
+        }
+        
+        return cardsToMull;
     }
 }

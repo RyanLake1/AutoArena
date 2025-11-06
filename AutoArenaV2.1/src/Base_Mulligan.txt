@@ -1,0 +1,38 @@
+Mulligan
+Lands only count as lands when you can cast your spells off them; two willowrush verges are not good.
+1 llanowar_elves counts as a land if can play on turn 1
+t1 llanowar_elves makes 3 drops a turn two play
+Less strict when keeping more cards
+
+On the play:
+
+7 cards{
+3 lands (and correct colors), at least one untapped land
+One land will be untapped:
+--
+Two or three lands will be untapped:
+--one two-cmc creature and one three-cmc or less play | t1-llanowar_elves and one three-cmc creature | one one-cmc creature and t2 play
+}
+6 cards:
+
+5 cards:
+
+4 cards:
+2 lands, one two-cmc creature, [1. card draw | 2. llanowar_elves | 3. pawpatch recruit]
+1 untapped green land, one llanowar_elves, something to play turn two
+
+
+3, 2, 1 cards: concede. Not worth it.
+
+
+On the draw:
+2 lands is fine, 3 lands is slightly preferred
+7 cards:
+
+6 cards:
+
+5 cards:
+
+4 cards:
+
+3, 2, 1 cards: concede. Not worth it.
